@@ -19,7 +19,7 @@ if( !defined( 'YOURLS_ABSPATH' ) ) die();
 // phpcs:disable Squiz.Commenting.FunctionComment.Missing
 // phpcs:disable WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedClassFound
 
-use IonaTools as t;
+use Iona_Yourls_Tools as t;
 
 /** Undocumented class */
 class Iona_Yourls_Plugin {
@@ -115,7 +115,7 @@ class Iona_Yourls_Plugin {
 Iona_Yourls_Plugin::on_init();
 
 /** Undocumented class */
-class IonaTools {
+class Iona_Yourls_Tools {
 
 	/** Get the current request URL query string.
 	 *
